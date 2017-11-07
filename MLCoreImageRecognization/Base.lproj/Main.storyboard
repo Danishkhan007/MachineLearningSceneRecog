@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scene_image" translatesAutoresizingMaskIntoConstraints="NO" id="f1c-n4-FtU">
-                                <rect key="frame" x="10" y="72" width="355" height="587"/>
+                                <rect key="frame" x="10" y="64" width="355" height="603"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4DZ-TM-GVP">
                                 <rect key="frame" x="16" y="613" width="343" height="34"/>
@@ -46,9 +46,9 @@
                             <constraint firstAttribute="trailing" secondItem="f1c-n4-FtU" secondAttribute="trailing" constant="10" id="Wr5-lC-9oX"/>
                             <constraint firstItem="Cca-Rd-yX5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="apf-0W-QS6"/>
                             <constraint firstItem="f1c-n4-FtU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="cvq-7w-vM0"/>
-                            <constraint firstItem="f1c-n4-FtU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="eHU-wm-Pek"/>
+                            <constraint firstItem="f1c-n4-FtU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eHU-wm-Pek"/>
                             <constraint firstItem="4DZ-TM-GVP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="mZe-fE-OcA"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="f1c-n4-FtU" secondAttribute="bottom" constant="8" id="ov0-Ji-SNH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="f1c-n4-FtU" secondAttribute="bottom" id="ov0-Ji-SNH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4DZ-TM-GVP" secondAttribute="bottom" constant="20" id="psU-f5-JFV"/>
                         </constraints>
                     </view>
