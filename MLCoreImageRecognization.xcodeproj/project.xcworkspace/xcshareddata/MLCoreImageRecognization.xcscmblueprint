@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EAF68676F6539E6A720DB2D1791941CFAD4BF4D9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E8D2E0C5B9B099870BACBF0301C02F54555BF7F2" : 9223372036854775807,
+    "EAF68676F6539E6A720DB2D1791941CFAD4BF4D9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4394D20C-47BF-426D-A0C7-BCA71777E2D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E8D2E0C5B9B099870BACBF0301C02F54555BF7F2" : "",
+    "EAF68676F6539E6A720DB2D1791941CFAD4BF4D9" : "MLCoreImageRecognization\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MLCoreImageRecognization",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MLCoreImageRecognization.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Danishkhan007\/MachineLearningSceneRecog.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8D2E0C5B9B099870BACBF0301C02F54555BF7F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Danishkhan007\/MachineLearningSceneRecog.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EAF68676F6539E6A720DB2D1791941CFAD4BF4D9"
+    }
+  ]
+}
