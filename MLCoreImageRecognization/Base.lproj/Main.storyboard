@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rkU-lN-AcQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rkU-lN-AcQ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Scene-Recognition-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MLCoreImageRecognization" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scene.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="f1c-n4-FtU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scene_image" translatesAutoresizingMaskIntoConstraints="NO" id="f1c-n4-FtU">
                                 <rect key="frame" x="10" y="72" width="355" height="587"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4DZ-TM-GVP">
@@ -32,11 +32,19 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click On Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cca-Rd-yX5">
+                                <rect key="frame" x="129.5" y="323" width="115.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="4DZ-TM-GVP" secondAttribute="trailing" constant="16" id="Hjm-jp-Pvk"/>
+                            <constraint firstItem="Cca-Rd-yX5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OSW-hH-6El"/>
                             <constraint firstAttribute="trailing" secondItem="f1c-n4-FtU" secondAttribute="trailing" constant="10" id="Wr5-lC-9oX"/>
+                            <constraint firstItem="Cca-Rd-yX5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="apf-0W-QS6"/>
                             <constraint firstItem="f1c-n4-FtU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="cvq-7w-vM0"/>
                             <constraint firstItem="f1c-n4-FtU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="eHU-wm-Pek"/>
                             <constraint firstItem="4DZ-TM-GVP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="mZe-fE-OcA"/>
@@ -44,7 +52,11 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4DZ-TM-GVP" secondAttribute="bottom" constant="20" id="psU-f5-JFV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="FIB-UN-ITc"/>
+                    <navigationItem key="navigationItem" title="Scene-Recognition" id="FIB-UN-ITc">
+                        <barButtonItem key="backBarButtonItem" title="Explore" id="Yfl-IW-TqL">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="imagePredictionLable" destination="4DZ-TM-GVP" id="Mb2-H8-23S"/>
                         <outlet property="imageView" destination="f1c-n4-FtU" id="r60-mG-BJF"/>
@@ -59,9 +71,12 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rkU-lN-AcQ" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5eb-oH-3Gj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="5eb-oH-3Gj">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -74,6 +89,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="scene.jpg" width="1600" height="1200"/>
+        <image name="scene_image" width="1600" height="1200"/>
     </resources>
 </document>

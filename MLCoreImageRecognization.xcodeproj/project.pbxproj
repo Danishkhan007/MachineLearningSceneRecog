@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C0772A01F2CD6AF00107D46 /* PredictionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C07729F1F2CD6AF00107D46 /* PredictionViewModel.swift */; };
-		1C65EE9E1F2B97CA0057C7E4 /* dark_road.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C65EE9D1F2B97C90057C7E4 /* dark_road.jpg */; };
-		1C65EEA01F2BB6FD0057C7E4 /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C65EE9F1F2BB6FC0057C7E4 /* scene.jpg */; };
+		1C6C5BD71FB1C1C700D67F6B /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C5BD61FB1C1C700D67F6B /* GoogLeNetPlaces.mlmodel */; };
 		1CB4C75D1F29D90300154565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4C75C1F29D90300154565 /* AppDelegate.swift */; };
 		1CB4C75F1F29D90300154565 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4C75E1F29D90300154565 /* ViewController.swift */; };
 		1CB4C7621F29D90300154565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB4C7601F29D90300154565 /* Main.storyboard */; };
@@ -17,7 +16,6 @@
 		1CB4C7671F29D90300154565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB4C7651F29D90300154565 /* LaunchScreen.storyboard */; };
 		1CB4C7721F29D90400154565 /* MLCoreImageRecognizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4C7711F29D90400154565 /* MLCoreImageRecognizationTests.swift */; };
 		1CB4C77D1F29D90400154565 /* MLCoreImageRecognizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4C77C1F29D90400154565 /* MLCoreImageRecognizationUITests.swift */; };
-		1CC2D85E1F2A02B200DDB19C /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2D85D1F2A02B200DDB19C /* GoogLeNetPlaces.mlmodel */; };
 		1CC2D8621F2A054100DDB19C /* ImageToPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2D8611F2A054100DDB19C /* ImageToPixelBuffer.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1C07729F1F2CD6AF00107D46 /* PredictionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionViewModel.swift; sourceTree = "<group>"; };
-		1C65EE9D1F2B97C90057C7E4 /* dark_road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dark_road.jpg; path = ../../../../../../Users/danish/Downloads/SceneDetector_Starter/SceneDetector/Resources/Assets.xcassets/dark_road.imageset/dark_road.jpg; sourceTree = "<group>"; };
-		1C65EE9F1F2BB6FC0057C7E4 /* scene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = scene.jpg; path = ../../../../../../Users/danish/Downloads/scene.jpg; sourceTree = "<group>"; };
+		1C6C5BD61FB1C1C700D67F6B /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		1CB4C7591F29D90300154565 /* MLCoreImageRecognization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLCoreImageRecognization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB4C75C1F29D90300154565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB4C75E1F29D90300154565 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +52,6 @@
 		1CB4C7781F29D90400154565 /* MLCoreImageRecognizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLCoreImageRecognizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB4C77C1F29D90400154565 /* MLCoreImageRecognizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLCoreImageRecognizationUITests.swift; sourceTree = "<group>"; };
 		1CB4C77E1F29D90400154565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CC2D85D1F2A02B200DDB19C /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../../../../Users/danish/Downloads/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		1CC2D8611F2A054100DDB19C /* ImageToPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToPixelBuffer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,14 +103,12 @@
 		1CB4C75B1F29D90300154565 /* MLCoreImageRecognization */ = {
 			isa = PBXGroup;
 			children = (
-				1CC2D85D1F2A02B200DDB19C /* GoogLeNetPlaces.mlmodel */,
+				1C6C5BD61FB1C1C700D67F6B /* GoogLeNetPlaces.mlmodel */,
 				1CB4C75C1F29D90300154565 /* AppDelegate.swift */,
 				1CB4C75E1F29D90300154565 /* ViewController.swift */,
 				1C07729F1F2CD6AF00107D46 /* PredictionViewModel.swift */,
 				1CB4C7601F29D90300154565 /* Main.storyboard */,
 				1CB4C7631F29D90300154565 /* Assets.xcassets */,
-				1C65EE9D1F2B97C90057C7E4 /* dark_road.jpg */,
-				1C65EE9F1F2BB6FC0057C7E4 /* scene.jpg */,
 				1CB4C7651F29D90300154565 /* LaunchScreen.storyboard */,
 				1CB4C7681F29D90300154565 /* Info.plist */,
 				1CC2D8611F2A054100DDB19C /* ImageToPixelBuffer.swift */,
@@ -248,8 +242,6 @@
 				1CB4C7671F29D90300154565 /* LaunchScreen.storyboard in Resources */,
 				1CB4C7641F29D90300154565 /* Assets.xcassets in Resources */,
 				1CB4C7621F29D90300154565 /* Main.storyboard in Resources */,
-				1C65EE9E1F2B97CA0057C7E4 /* dark_road.jpg in Resources */,
-				1C65EEA01F2BB6FD0057C7E4 /* scene.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CB4C75F1F29D90300154565 /* ViewController.swift in Sources */,
+				1C6C5BD71FB1C1C700D67F6B /* GoogLeNetPlaces.mlmodel in Sources */,
 				1CC2D8621F2A054100DDB19C /* ImageToPixelBuffer.swift in Sources */,
 				1CB4C75D1F29D90300154565 /* AppDelegate.swift in Sources */,
-				1CC2D85E1F2A02B200DDB19C /* GoogLeNetPlaces.mlmodel in Sources */,
 				1C0772A01F2CD6AF00107D46 /* PredictionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
